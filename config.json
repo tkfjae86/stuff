@@ -1,5 +1,5 @@
 {
     "port": "8080",
-    "prefix": "/home/",
+    "prefix": "/fetch/utils",
     "ssl": false
 }
