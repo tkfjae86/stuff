@@ -163,7 +163,7 @@ $('buttonid').onclick = function() {
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
     const origin = btoa(url)
-    window.location.href = "https://cdn." + domain + "/[Prefix]/utils/?url=" + origin;
+    window.location.href = "https://cdn." + domain + "/fetch/utils/?url=" + origin;
     return false;
 };</script>
     
