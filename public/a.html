@@ -154,3 +154,15 @@
 </body>
 
 </html>
+function $(id) {
+    return document.getElementById(id);
+};
+
+$('buttonid').onclick = function() {
+    var url = $('url').value;
+    var det = document.domain;
+    var domain = det.replace('www.', '').split(/[/?#]/)[0];
+    const origin = btoa(url)
+    window.location.href = "https://cdn." + domain + "/fetch/utils/?url=" + origin;
+    return false;
+};
