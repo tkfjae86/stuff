@@ -101,7 +101,7 @@ app.use(`${config.prefix}utils/`, async(req, res, next) => {
     }
 });
 
-app.post(`${config.prefix}fetch/utils`, async(req, res, next) => {
+app.post(`${config.prefix}/utils`, async(req, res, next) => {
     let url = querystring.parse(req.raw_body).url;
     if (url.startsWith('//')) { url = 'http:' + url; } else if (url.startsWith('https://') || url.startsWith('http://')) { url = url } else { url = 'http://' + url };
     return res.redirect(config.prefix + rewrite_url(url));
