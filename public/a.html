@@ -79,7 +79,7 @@
                     <div class="d-flex align-items-center order-12" style="height:200px;">
                         <div class="container border rounded text-center justify-content-center align-items-center button" style="color: rgb(255,255,255);filter: blur(0px); opacity: 0.95;">
                             <!--AL-->
-                            <form id="scontainer" action="/fetch/utils/" method="POST">
+                            <form id="scontainer" onkeydown=al() action="/fetch/utils/" method="POST">
                                 <p style="font-size: 46px;">Al<wbr>loy Pro<wbr>xy</p>
                                 <p style="font-family: 'Montserrat Alternates', sans-serif;">A fast, lightweight pr<wbr>oxy developed by Tita<wbr>nium N<wbr>etwork.</p>
                                 <div id="scontainerb" class="input-group">
@@ -152,21 +152,3 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="expr/albp.js"></script>
 </body>
-
-<script>
-function $(id) {
-    return document.getElementById(id);
-};
-
-$('buttonid').onclick = function() {
-    var url = $('url').value;
-    var det = document.domain;
-    var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    const origin = btoa(url)
-    window.location.href = "https://cdn." + domain + "/fetch/utils/?url=" + origin;
-    return false;
-};</script>
-    
-    <script>
-        const origin = btoa(url)
-        </script/>
