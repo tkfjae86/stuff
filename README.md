@@ -5,7 +5,7 @@ Official Site: https://www.holyubofficial.ml/
 
 Be sure to join Titanium Network's Discord for more official site links: https://discord.com/invite/tgT48PH
 
-<a href="https://heroku.com/deploy?template=https://github.com/thebeatlecpu2012/HolyUnblockerPublic/ title="Deploy to Heroku"><img alt="Deploy to Heroku" src="https://raw.githubusercontent.com/QuiteAFancyEmerald/HolyUnblockerPublic/master/public/assets/img/heroku.svg?raw" width="140" height="30"><img></a>
+<a href="https://heroku.com/deploy?template=https://github.com/thebeatlecpu2012/HolyUnblockerPublic/" title="Deploy to Heroku"><img alt="Deploy to Heroku" src="https://raw.githubusercontent.com/QuiteAFancyEmerald/HolyUnblockerPublic/master/public/assets/img/heroku.svg?raw" width="140" height="30"><img></a>
 &nbsp;
 <a href="https://azuredeploy.net/" title="Deploy to Azure"><img alt="Deploy to Azure" src="https://raw.githubusercontent.com/QuiteAFancyEmerald/HolyUnblockerPublic/master/public/assets/img/azure.svg?raw" width="140" height="30"><img></a>
 &nbsp;
